@@ -1,0 +1,5 @@
+f = open('sometimes.txt','w')
+f.write('welcome to this file')
+f.write('There is nothing here except')
+f.write('This stupid haiku')
+f.close()
