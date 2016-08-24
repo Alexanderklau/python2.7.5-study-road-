@@ -1,0 +1,6 @@
+account log:
+ignored: could not convert string to float: previous balance
+ ignored: None ignored: could not convert string to float: debits
+ ignored: None ignored: None ignored: None ignored: could not convert string to float: credits
+ ignored: None ignored: None ignored: could not convert string to float: finace charge/late fees
+ ignored: None ignored: None 
