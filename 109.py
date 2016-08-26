@@ -4,8 +4,8 @@ from random import randint,choice
 ops = {'+':add,'-':sub}
 MAXTRIES = 2
 def doprob():
-    op = choice('+-')
-    nums = [randint(1,10) for i in range(2)]
+    op = choice('+-') #获取一个序列，并且返其中的元素
+    nums = [randint(1,10) for i in range(2)] #列表解析得随机两个数
     nums.sort(reverse = True)
     ans = ops[op](*nums)
     pr = '%d %s %d = ' % (nums[0],op,nums[1])
